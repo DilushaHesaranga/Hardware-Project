@@ -1,0 +1,46 @@
+.sensor-card {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #d3dcd6;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.sensor-card_label {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #65736c;
+}
+
+.sensor-card_reading {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.sensor-card_empty {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.sensor-card_updated {
+  margin: 12px 0 8px;
+  font-size: 14px;
+  color: #65736c;
+}
+
+.sensor-card_value {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sensor-card_unit {
+  font-size: 18px;
+  font-weight: 600;
+  color: #65736c;
+}

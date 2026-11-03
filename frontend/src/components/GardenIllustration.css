@@ -1,0 +1,34 @@
+.garden-illustration {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #d3dcd6;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.garden-illustration_roof {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #52625a;
+}
+
+.garden-illustration_diagram {
+  display: block;
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  margin: 8px auto 0;
+}
+
+.garden-illustration_cabinet {
+  font-family: inherit;
+  font-size: 14px;
+  fill: #52625a;
+}
+
+.garden-illustration_caption {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #65736c;
+}
