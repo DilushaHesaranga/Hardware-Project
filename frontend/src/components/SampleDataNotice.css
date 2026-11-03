@@ -1,0 +1,12 @@
+.sample-data-notice {
+  margin: 0 32px 24px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background-color: #dce9f8;
+  color: #28547a;
+  font-weight: 600;
+}
+
+.sample-data-notice p {
+  margin: 0;
+}
