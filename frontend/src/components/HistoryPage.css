@@ -1,0 +1,57 @@
+.history-page_trend {
+  margin-bottom: 24px;
+}
+
+.history-page_summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  color: #65736c;
+}
+
+.history-page_summary p {
+  margin: 0 0 16px;
+}
+
+.history-page_summary strong {
+  display: block;
+  color: #1b2722;
+  font-size: 22px;
+}
+
+.history-page_chart {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+}
+
+.history-page_chart text {
+  font-size: 14px;
+  fill: #52625a;
+}
+
+.history-page_table {
+  overflow-x: auto;
+}
+
+.history-page_table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.history-page_table caption {
+  text-align: left;
+  color: #65736c;
+  padding-bottom: 16px;
+}
+
+.history-page_table th,
+.history-page_table td {
+  padding: 12px;
+  border-bottom: 1px solid #e3e8e5;
+}
+
+.history-page_table th {
+  background-color: #edf3ef;
+}

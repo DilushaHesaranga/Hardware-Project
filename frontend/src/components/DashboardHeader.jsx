@@ -1,11 +1,11 @@
 import './DashboardHeader.css';
 
-function DashboardHeader({ isConnected, lastReadingText }) {
+function DashboardHeader({ isConnected, lastReadingText, gardenName = 'Balcony Mint Garden' }) {
 
     return(
         <header className="dashboard-header">
             <div className="dashboard-header_title">
-                <h1>Balcony Mint Garden</h1>
+                <h1>{gardenName}</h1>
                 <p>Monitor,control and manage the garden.</p>
             </div>
 

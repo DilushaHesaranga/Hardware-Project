@@ -1,0 +1,71 @@
+.settings-page_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.settings-page_form label {
+  margin-bottom: 20px;
+}
+
+.settings-page_help {
+  font-size: 14px;
+  color: #65736c;
+}
+
+.settings-page_actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.settings-page_details {
+  margin: 0;
+}
+
+.settings-page_details div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e3e8e5;
+}
+
+.settings-page_details dt {
+  color: #65736c;
+}
+
+.settings-page_details dd {
+  margin: 0;
+}
+
+.settings-page_sensors {
+  grid-column: 1 / -1;
+}
+
+.settings-page_sensors ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.settings-page_sensors li {
+  padding: 10px 14px;
+  border-radius: 6px;
+  background-color: #edf3ef;
+}
+
+.settings-page_sensors span {
+  color: #65736c;
+  margin-left: 8px;
+}
+
+@media (max-width: 900px) {
+  .settings-page_grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

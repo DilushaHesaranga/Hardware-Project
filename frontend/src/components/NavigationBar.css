@@ -59,3 +59,18 @@
   background-color: #263b32;
   color: #ffffff;
 }
+
+@media (max-width: 1000px) {
+  .navigation-bar {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .navigation-bar_links {
+    order: 3;
+    width: 100%;
+    margin: 0;
+    overflow-x: auto;
+  }
+}

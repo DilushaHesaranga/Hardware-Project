@@ -2,7 +2,7 @@
 import './NavigationBar.css';
 
 //creating the component for the navigation bar
-function NavigationBar(){
+function NavigationBar({ page }){
     return(
         <nav className="navigation-bar" aria-label="Main navigation">
 
@@ -21,11 +21,11 @@ function NavigationBar(){
 
             {/*Navigation links for the navigation bar*/}
             <ul className="navigation-bar_links">
-                <li><a href="#overview" aria-current="page">Overview</a></li>
-                <li><a href="#controls">Controls</a></li>
-                <li><a href="#history">History</a></li>
-                <li><a href="#activity">Activity</a></li>
-                <li><a href="#settings">Settings</a></li>
+                <li><a href="#overview" aria-current={page === 'overview' ? 'page' : undefined}>Overview</a></li>
+                <li><a href="#controls" aria-current={page === 'controls' ? 'page' : undefined}>Controls</a></li>
+                <li><a href="#history" aria-current={page === 'history' ? 'page' : undefined}>History</a></li>
+                <li><a href="#activity" aria-current={page === 'activity' ? 'page' : undefined}>Activity</a></li>
+                <li><a href="#settings" aria-current={page === 'settings' ? 'page' : undefined}>Settings</a></li>
             </ul>
             {/*Mode indicator for the navigation bar*/}
             <span className="navigation-bar_mode">Sample data mode</span>
